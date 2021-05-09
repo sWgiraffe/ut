@@ -6,4 +6,9 @@ describe('Test', () => {
       isLuckNum(1)
     ).toBe(false);
   });
+  it('Work fine', () => {
+    expect(
+      isLuckNum(7)
+    ).toBe(true);
+  });
 });

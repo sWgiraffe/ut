@@ -8,5 +8,8 @@ function isLuckNum (num) {
   if (num === 7) {
     return true;
   }
+  if (num === 8) {
+    return true;
+  }
   return false;
 }
