@@ -21,7 +21,9 @@
     "jest": "^26.6.3"
   },
   "jest": {
-    "testMatch": ["**/test/**/*.[jt]s?(x)"],
+    "testMatch": [
+      "**/test/**/*.[jt]s?(x)"
+    ],
     "collectCoverage": true,
     "coverageDirectory": "./coverage/"
   }
