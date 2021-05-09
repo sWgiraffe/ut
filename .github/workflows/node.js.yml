@@ -28,4 +28,5 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - run: npm install codecov -g
     - run: codecov --token=3f88b25f-eb06-4222-a726-87b369105202
