@@ -8,7 +8,7 @@ describe('Test', () => {
   // });
   it('Work fine', () => {
     expect(
-      isLuckNum(7)
-    ).toBe(true);
+      isLuckNum(-1)
+    ).toBe(false);
   });
 });
