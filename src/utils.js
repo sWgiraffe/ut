@@ -1,5 +1,8 @@
 function isDogeCoin(name) {
-  return name === 'doge';
+  if (name !== 'doge') {
+    return false;
+  }
+  return true;
 }
 
 module.exports = {
