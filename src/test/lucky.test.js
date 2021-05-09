@@ -1,4 +1,4 @@
-const { isLuckNum } = require('../math');
+const { isLuckNum } = require('../lucky');
 
 describe('Test', () => {
   // it('Work fine', () => {
