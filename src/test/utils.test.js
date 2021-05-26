@@ -1,4 +1,4 @@
-const { isDogeCoin } = require('../utils');
+const { isDogeCoin } = require('../test2/utils');
 
 describe('Test', () => {
   it('no dogecoin', () => {
