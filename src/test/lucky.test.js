@@ -10,5 +10,14 @@ describe('Test', () => {
     expect(
       isLuckNum(-1)
     ).toBe(false);
+    expect(
+      isLuckNum(3)
+    ).toBe(true);
+    expect(
+      isLuckNum(7)
+    ).toBe(true);
+    expect(
+      isLuckNum(8)
+    ).toBe(true);
   });
 });
